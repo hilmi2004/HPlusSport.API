@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\HPlusSport.API.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\HPlusSport.API.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\HPlusSport.API.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\HPlusSport.API.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\HPlusSpo.33A852E7.Up2Date" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.assets.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.dll" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\HPlusSport.API.pdb" />
+    <None Include="obj\Debug\net8.0\refint\HPlusSport.API.dll" />
+    <None Include="obj\Debug\net8.0\ref\HPlusSport.API.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.HPlusSport.API.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HPlusSport.API.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HPlusSport.API.props" />
+    <None Include="obj\HPlusSport.API.csproj.nuget.g.props" />
+    <None Include="obj\HPlusSport.API.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
